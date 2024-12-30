@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
 
-
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 * {
     margin: 0;
@@ -38,7 +40,7 @@ a {
     transition: background 0.3s ease, color 0.3s ease;
 }
 .btn:hover {
-    background: #212121;
+    background: #140745;
     color: #FFF;
 }
 
