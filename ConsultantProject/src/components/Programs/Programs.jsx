@@ -9,26 +9,26 @@ import program_icon_3 from '../../assets/edusity_assets/program-icon-3.png'
 
 const Programs = () => {
   return (
-    <div className='programs'>
+    <div className='programs' id='program'>
         <div className="program">
             <img src={program_1} alt="" />
             <div className="caption">
               <img src={program_icon_1} alt="" />
-              <p>Graduation Degree</p>
+              <p>O Levels</p>
             </div>
         </div>
         <div className="program">
             <img src={program_2} alt="" />
             <div className="caption">
               <img src={program_icon_2} alt="" />
-              <p>Masters Degree</p>
+              <p>A levels</p>
             </div>
         </div>
         <div className="program">
             <img src={program_3} alt="" />
             <div className="caption">
               <img src={program_icon_3} alt="" />
-              <p>Post Graduation</p>
+              <p>University Essays</p>
             </div>
         </div>
       

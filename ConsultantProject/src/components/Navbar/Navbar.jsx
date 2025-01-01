@@ -1,6 +1,8 @@
 import React, {useEffect, useState} from 'react'
 import './Navbar.css'
+import { Link } from 'react-scroll';
 import logo from '../../assets/edusity_assets/logo.png'
+import menu_icon from '../../assets/edusity_assets/menu-icon.png'
 
 const Navbar = () => {
 
@@ -16,18 +18,49 @@ const Navbar = () => {
     });
   }, []);
 
+  const [Menu, setMenu] = useState(false)
+
+  const toggleMenu = () => {
+    Menu? setMenu(false) : setMenu(true);
+    
+  }
+
   return (
-    <nav className={`container  ${sticky ? "dark-nav" : ""}`}>
-      <img src={logo} alt="" className='logo'/>
-      <ul>
-        <li>Home</li>
-        <li>Program</li>
-        <li>Features</li>
-        <li >Services</li>
-        <li><button className='btn'>Contact Us</button></li>
+    <nav className={`container ${sticky ? 'dark-nav' : ''}`}>
+      <img src={logo} alt="Logo" className="logo" />
+      <ul className={Menu ? '' : 'hide-mobile-menu'}>
+        <li>
+          <Link to="hero" smooth={true} duration={500} offset={0}>
+            Home
+          </Link>
+        </li>
+        <li>
+          <Link to="program" smooth={true} duration={500} offset={-300}>
+            Program
+          </Link>
+        </li>
+        <li>
+          <Link to="about" smooth={true} duration={500} offset={-150}>
+            About
+          </Link>
+        </li>
+        <li>
+          <Link to="campus" smooth={true} duration={500} offset={0}>
+            Campus
+          </Link>
+        </li>
+        <li>
+          <Link to="testimonials" smooth={true} duration={500} offset={-250}>
+            testimonials
+          </Link>
+        </li>
+        <li>
+          <Link className="btn" to="contact" smooth={true} duration={500} offset={-300}>Contact Us</Link>
+        </li>
       </ul>
+      <img src={menu_icon} alt="" className='menu-icon' onClick={toggleMenu}/>
     </nav>
-  )
+  );
 }
 
 export default Navbar
