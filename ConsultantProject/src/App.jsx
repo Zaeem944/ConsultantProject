@@ -18,8 +18,8 @@ const App = () => {
         <Title subTitle = 'Our Program' title='What we Offer'/>
         <Programs />
         <About />
-        <Title subTitle = 'Gallery' title='Testimonials'/>
-        <Campus />
+        {/* <Title subTitle = 'Gallery' title='Blogs'/> */}
+        {/* <Campus /> */}
         <Title subTitle = 'Checks' title='Testimonials'/>
         <Testimonials />
         <Title subTitle = 'Contact Us' title='Get in touch'/>

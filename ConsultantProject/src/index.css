@@ -40,7 +40,7 @@ a {
     transition: background 0.3s ease, color 0.3s ease;
 }
 .btn:hover {
-    background: #140745;
+    background: #482e01;
     color: #FFF;
 }
 
@@ -50,7 +50,7 @@ a {
 }
 
 .btn.dark-btn {
-    background: #212EA0;
+    background: #866000;
     color: #FFF;
 
 }
