@@ -44,11 +44,11 @@ const Navbar = () => {
             About
           </Link>
         </li>
-        <li>
+        {/* <li>
           <Link to="campus" smooth={true} duration={500} offset={0}>
             Campus
           </Link>
-        </li>
+        </li> */}
         <li>
           <Link to="testimonials" smooth={true} duration={500} offset={-250}>
             testimonials

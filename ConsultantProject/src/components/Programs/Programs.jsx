@@ -1,6 +1,6 @@
 import React from 'react'
 import './Programs.css'
-import program_1 from '../../assets/edusity_assets/program-1.png'
+import program_1 from '../../assets/edusity_assets/program-1.2.png'
 import program_2 from '../../assets/edusity_assets/program-2.png'
 import program_3 from '../../assets/edusity_assets/program-3.png'
 import program_icon_1 from '../../assets/edusity_assets/program-icon-1.2.png'
@@ -28,7 +28,7 @@ const Programs = () => {
             <img src={program_3} alt="" />
             <div className="caption">
               <img src={program_icon_3} alt="" />
-              <p>University Consultation</p>
+              <p>University Consultation/ Extra cirricular</p>
             </div>
         </div>
       

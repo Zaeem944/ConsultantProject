@@ -2,9 +2,9 @@ import React from 'react'
 import './Contact.css'
 
 import msg_icon from '../../assets/edusity_assets/msg-icon.png'
-import mail_icon from '../../assets/edusity_assets/mail-icon.png'
-import phone_icon from '../../assets/edusity_assets/phone-icon.png'
-import location_icon from '../../assets/edusity_assets/location-icon.png'
+import mail_icon from '../../assets/edusity_assets/mail-icon2.png'
+import phone_icon from '../../assets/edusity_assets/phone-icon2.png'
+// import location_icon from '../../assets/edusity_assets/location-icon.png'
 
 import white_arrow from '../../assets/edusity_assets/white-arrow.png'
 
@@ -50,7 +50,7 @@ const Contact = () => {
           <input type="text" name='name' placeholder='Enter your name' required />
           <label htmlFor="">Your Phone number</label>
           <input type="tel" name='phone' placeholder='Enter your phone number' required />
-          <label htmlFor="">Write your message here</label>
+          <label htmlFor="">Write your email here</label>
           <textarea name="message" row="1" placeholder='Enter Your Email' required></textarea>
           <button type='submit' className='btn dark-btn'>Submit Now <img src={white_arrow} alt="" /></button>
         </form>

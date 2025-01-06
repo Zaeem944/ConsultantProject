@@ -8,10 +8,10 @@ const About = () => {
     <div className='about' >
         <div className="about-left">
             <img src={about_img} alt="" className='about-img'/>
-            <img src={play_icon} alt="" className='play-icon'/>
+            {/* <img src={play_icon} alt="" className='play-icon'/> */}
         </div>
         <div className="about-right">
-            <h3>ABOUT UNIVERSITY</h3>
+            <h3>ABOUT OUR CONSULTATIO FIRM</h3>
             <h2>Lorem ipsum dolor sit amet consectetur.
             </h2>
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint, accusamus dolor consequatur aliquam sequi eius dolores, quia reprehenderit porro molestias ex nisi odio dolorum iusto quaerat consequuntur ratione praesentium quo.</p>
