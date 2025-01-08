@@ -15,7 +15,7 @@
     width: 50px;
     border-radius: 50%;
     cursor: pointer;
-    background: #bb8000;
+    background: #227140;
 
 }
 
@@ -55,7 +55,7 @@
     width: 65px;
     border-radius: 50%;
     margin-right: 10px;
-    border: 4px solid #a16300;
+    border: 4px solid #227140;
 }
 
 .user-info {
@@ -66,7 +66,7 @@
 }
 
 .user-info h3 {
-    color: #ba6a00;
+    color: #227140;
 }
 
 @media (max-width: 800px) {
@@ -88,7 +88,7 @@
 
     .slide img {
         width: 50px;
-        border: 3px solid #c58a00;
+        border: 3px solid #227140;
     }
 
     .user-info {
@@ -116,7 +116,7 @@
 
     .slide img {
         width: 40px;
-        border: 2px solid #c66000;
+        border: 2px solid #227140;
     }
 
     .user-info {
