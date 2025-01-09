@@ -6,9 +6,7 @@ const Hero = () => {
   return (
     <div className='hero container'> 
       <div className="hero-text">
-        <h1>Ask Away !!!!</h1>
-        <p>Ask our student councelors that will assits you in your college application journey</p>
-        {/* <button className='btn features'>Get Started <img src={arrow} alt="" /></button> */}
+        <h1><i>Your Dream College Awaits You - Lets Make it Happen</i></h1>
       </div>
     </div>
   )

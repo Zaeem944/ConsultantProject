@@ -51,7 +51,7 @@ const Navbar = () => {
         </li> */}
         <li>
           <Link to="testimonials" smooth={true} duration={500} offset={-250}>
-            testimonials
+            Testimonials
           </Link>
         </li>
         <li>

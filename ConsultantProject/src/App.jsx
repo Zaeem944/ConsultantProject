@@ -15,9 +15,9 @@ const App = () => {
       <Navbar />
       <Hero />
       <div className="container">
+        <About />
         <Title subTitle = 'Our Program' title='What we Offer'/>
         <Programs />
-        <About />
         {/* <Title subTitle = 'Gallery' title='Blogs'/> */}
         {/* <Campus /> */}
         <Title subTitle = 'Our Students' title='Testimonials'/>
