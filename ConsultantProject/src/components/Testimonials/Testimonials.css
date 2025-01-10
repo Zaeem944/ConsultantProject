@@ -69,6 +69,14 @@
     color: #227140;
 }
 
+.user-info p {
+    margin: 5px 0 5px 0;
+}
+
+.user-info b {
+    color: #227140;
+}
+
 @media (max-width: 800px) {
     .testimonials {
         padding: 0 40px;
