@@ -68,12 +68,25 @@ const Packages = () => {
             </ul>
           </div>
           <div className="package-item">
-            <h3>Premium Consultation Package (1 Month)</h3>
+            <h3>Premium University Package (1 Month)</h3>
             <ul>
               <li>Continuous and ongoing support</li>
               <li>Application strategies, academic major consultation, and profile improvement</li>
               <li>Unlimited draft reviews and edits</li>
               {/* <li>Price: PKR 15,000</li> */}
+            </ul>
+          </div>
+        </div>
+        <div className="package">
+          <h2>Combined Packages</h2>
+          <div className="package-item">
+          <h3>Premium Essay  and Consultation Package (1 Month)</h3>
+            <ul>
+              <li>Continuous and ongoing consultation support</li>
+              <li>Covers all types of essays (Personal Statement, Extra Curricular, Supplemental)</li>
+              <li>Application strategies, academic major consultation, and profile improvement</li>
+              <li>Unlimited draft review and edits</li>
+              {/* <li>Price: PKR 10,000</li> */}
             </ul>
           </div>
         </div>
