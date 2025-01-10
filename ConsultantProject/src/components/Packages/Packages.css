@@ -49,8 +49,23 @@
   }
   
   .package-item li {
+    position: relative;
     margin-bottom: 8px;
     font-size: 1rem;
+    padding-left: 25px; /* Space for the icon */
+  }
+  
+  .package-item li::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 16px; /* Adjust icon size */
+    height: 16px;
+    background-image: url('../../assets/edusity_assets/check.png');
+    background-size: contain;
+    background-repeat: no-repeat;
   }
   
   @media (max-width: 768px) {
