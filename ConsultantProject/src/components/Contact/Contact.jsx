@@ -46,6 +46,7 @@ const Contact = () => {
       </div>
       <div className="contact-col">
         <h2>Send Your Queries</h2>
+        <h2>We are just a message Away!</h2>
         <form onSubmit={onSubmit}>
           <label htmlFor="">Your Name</label>
           <input type="text" name='name' placeholder='Enter your name' required />
