@@ -45,13 +45,14 @@ const Contact = () => {
         </ul>
       </div>
       <div className="contact-col">
+        <h2>Send Your Queries</h2>
         <form onSubmit={onSubmit}>
           <label htmlFor="">Your Name</label>
           <input type="text" name='name' placeholder='Enter your name' required />
           <label htmlFor="">Your Phone number</label>
           <input type="tel" name='phone' placeholder='Enter your phone number' required />
-          <label htmlFor="">Write your email here</label>
-          <textarea name="message" row="1" placeholder='Enter Your Email' required></textarea>
+          <label htmlFor="">Write your Mesage here</label>
+          <textarea name="message" row="1" placeholder='Enter Your Message' required></textarea>
           <button type='submit' className='btn dark-btn'>Submit Now <img src={white_arrow} alt="" /></button>
         </form>
         <span>{result}</span>

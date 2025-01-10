@@ -21,21 +21,23 @@ const Programs = () => {
   return (
     <div className={`programs-container ${popup.isVisible ? 'blur-background' : ''}`}>
       <div className='programs' id='program'>
-        <div className="program" onClick={() => openPopup('Details about Admission Tests')}>
+        <div className="program" onClick={() => openPopup('Premium SAT Package offers strategies and practice questions for English and Math. SAT Plus Package provides group classes with fixed timings.')}>          
           <img src={program_1} alt="" />
           <div className="caption">
             <img src={program_icon_1} alt="" id='different' />
             <p>Admission Tests</p>
           </div>
         </div>
-        <div className="program" onClick={() => openPopup('Details about University Essays')}>
+
+        <div className="program" onClick={() => openPopup('Personal Statement Plus Package includes brainstorming and draft reviews. Premium Essay Package offers ongoing support for various essay types.')}>          
           <img src={program_2} alt="" />
           <div className="caption">
             <img src={program_icon_2} alt="" />
             <p>University Essays</p>
           </div>
         </div>
-        <div className="program" onClick={() => openPopup('Details about University Consultation and Extracurricular')}>
+
+        <div className="program" onClick={() => openPopup('Consultation covers application strategies, extracurricular planning, and profile improvement. Premium packages offer ongoing support and detailed guidance.')}>          
           <img src={program_3} alt="" />
           <div className="caption">
             <img src={program_icon_3} alt="" />
