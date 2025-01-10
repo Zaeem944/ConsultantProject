@@ -16,14 +16,14 @@ const Packages = () => {
               <li>4 classes per week, 1 hour each</li>
               <li>Flexible Weekend/Weekday Timings</li>
               <li>Personalized 1:1 classes</li>
-              <li>Price: PKR 25,000</li>
+              {/* <li>Price: PKR 25,000</li> */}
             </ul>
           </div>
           <div className="package-item">
             <h3>SAT Plus Packages (Budget Option)</h3>
             <ul>
               <li>5:1 Student to Instructor Ratio</li>
-              <li>Group Discount Price: PKR 15,000 for 1 month</li>
+              {/* <li>Group Discount Price: PKR 15,000 for 1 month</li> */}
               <li>Includes core concepts and strategies (English + Math Section)</li>
               <li>In-depth practice questions from past exams/papers</li>
               <li>4 classes per week, 1 hour each</li>
@@ -41,7 +41,7 @@ const Packages = () => {
               <li>Session 1: Brainstorming and crafting essay structure</li>
               <li>Session 2: First Draft Review</li>
               <li>Session 3: Second Draft Review + Edits</li>
-              <li>Price: PKR 2,500</li>
+              {/* <li>Price: PKR 2,500</li> */}
             </ul>
           </div>
           <div className="package-item">
@@ -50,7 +50,7 @@ const Packages = () => {
               <li>Continuous and ongoing consultation support</li>
               <li>Covers all types of essays (Personal Statement, Extra Curricular, Supplemental)</li>
               <li>Unlimited draft review and edits</li>
-              <li>Price: PKR 10,000</li>
+              {/* <li>Price: PKR 10,000</li> */}
             </ul>
           </div>
         </div>
@@ -64,7 +64,7 @@ const Packages = () => {
               <li>Extra-curricular planning</li>
               <li>Overall profile improvement</li>
               <li>1-hour session</li>
-              <li>Price: PKR 1,500</li>
+              {/* <li>Price: PKR 1,500</li> */}
             </ul>
           </div>
           <div className="package-item">
@@ -73,7 +73,7 @@ const Packages = () => {
               <li>Continuous and ongoing support</li>
               <li>Application strategies, academic major consultation, and profile improvement</li>
               <li>Unlimited draft reviews and edits</li>
-              <li>Price: PKR 15,000</li>
+              {/* <li>Price: PKR 15,000</li> */}
             </ul>
           </div>
         </div>
