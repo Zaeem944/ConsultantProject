@@ -37,7 +37,7 @@
 
 .about h2 {
     font-size: 35px;
-    color: #000F38;
+    color: #163403;
     margin: 10px 0;
     max-width: 400px;
 }
@@ -45,6 +45,22 @@
 .about p{
     color:#676767;
     margin-bottom: 15px;
+}
+
+.about-right ol {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 15px;
+}
+
+.about-right ol li {
+    color: #676767;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.about-right ol li b {
+    color: #227140;
 }
 
 @media (max-width: 800px) {

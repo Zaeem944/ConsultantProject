@@ -8,6 +8,7 @@ import Campus from './components/Campus/Campus'
 import Testimonials from './components/Testimonials/Testimonials'
 import Contact from './components/Contact/Contact'
 import Footer from './components/Footer/Footer'
+import Packages from './components/Packages/Packages'
 
 const App = () => {
   return (
@@ -18,6 +19,8 @@ const App = () => {
         <About />
         <Title subTitle = 'Our Program' title='What we Offer'/>
         <Programs />
+        <Title subTitle = 'Our Packages' title='Get Multiple benefits'/>
+        <Packages />
         {/* <Title subTitle = 'Gallery' title='Blogs'/> */}
         {/* <Campus /> */}
         <Title subTitle = 'Our Students' title='Testimonials'/>
