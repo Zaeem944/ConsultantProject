@@ -41,7 +41,7 @@ const Contact = () => {
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, iure. Natus deleniti itaque in sit rem. Eaque saepe deleniti inventore.</p>
         <ul>
             <li><img src={phone_icon} alt="" />Phone: 123-456-7890</li>
-            <li><img src={mail_icon} alt="" />Email: xxx@gmail.com </li>
+            <li><img src={mail_icon} alt="" />Email: zarayaeducation@gmail.com </li>
         </ul>
       </div>
       <div className="contact-col">

@@ -19,7 +19,6 @@ const App = () => {
         <About />
         <Title subTitle = 'Our Program' title='What we Offer'/>
         <Programs />
-        <Title subTitle = 'Our Packages' title='Get Multiple benefits'/>
         <Packages />
         {/* <Title subTitle = 'Gallery' title='Blogs'/> */}
         {/* <Campus /> */}
