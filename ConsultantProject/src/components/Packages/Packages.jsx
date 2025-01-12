@@ -70,9 +70,6 @@ const Packages = () => {
               <li><b>New Year Discounted Price:</b> PKR 3,499</li>
             </ul>
           </div>
-        </div>
-        <div className="package">
-          <h2>Combined Packages</h2>
           <div className="package-item">
           <h3>Premium Consultation Package (1 Month)</h3>
             <ul>
@@ -84,6 +81,10 @@ const Packages = () => {
               <li><b>New Year Discounted Price:</b> PKR 9,999</li>
             </ul>
           </div>
+        </div>
+        <div className="package">
+          <h2>Combined Packages</h2>
+          
           <div className="package-item">
             <h3>Premium University Package (2 Month)</h3>
             <ul>
