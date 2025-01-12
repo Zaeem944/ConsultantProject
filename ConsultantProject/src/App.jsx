@@ -17,6 +17,7 @@ const App = () => {
       <div className="container">
         <About />
         <Title subTitle = 'Our Program' title='What we Offer'/>
+        <Title subTitle = 'Click On The Sections Below for more info' title=''/>
         <Programs />
         <Packages />
         {/* <Title subTitle = 'Gallery' title='Blogs'/> */}
