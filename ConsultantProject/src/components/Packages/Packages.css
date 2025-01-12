@@ -71,6 +71,11 @@
     background-size: contain;
     background-repeat: no-repeat;
   }
+
+
+  .coloring {
+    background-color: #ddf3db;
+  }
   
   @media (max-width: 768px) {
     .packages {
