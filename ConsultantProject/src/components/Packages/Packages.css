@@ -54,6 +54,10 @@
     font-size: 1rem;
     padding-left: 25px; /* Space for the icon */
   }
+
+  .package-item b {
+    color: #0d5e04;
+  }
   
   .package-item li::before {
     content: '';
