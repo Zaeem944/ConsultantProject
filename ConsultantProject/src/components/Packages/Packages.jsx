@@ -4,7 +4,7 @@ import './Packages.css';
 const Packages = () => {
   return (
     <div className="packages-container" id="packages">
-      <h1 className="packages-title">Our Packages</h1>
+      <h1 className="packages-title">Our Under Graduate Packages</h1>
       <div className="packages">
         <div className="package">
           <h2>SAT Preparation Packages</h2>
