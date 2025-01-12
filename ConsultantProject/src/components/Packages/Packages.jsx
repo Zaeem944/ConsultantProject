@@ -61,7 +61,7 @@ const Packages = () => {
         <div className="package">
           <h2>University and Extra Curricular Consultation Packages</h2>
           <div className="package-item">
-            <h3>One Time Consultation (LUMS)</h3>
+            <h3>One Time Consultation</h3>
             <ul>
               <li>Application strategies and academic major consultation</li>
               <li>How to stand out through your extracurriculars and awards</li>

@@ -38,9 +38,8 @@ const Contact = () => {
     <div className='contact'>
       <div className="contact-col">
         <h3>Send us a message <img src={msg_icon} alt="" /></h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, iure. Natus deleniti itaque in sit rem. Eaque saepe deleniti inventore.</p>
         <ul>
-            <li><img src={phone_icon} alt="" />Phone: 123-456-7890</li>
+            {/* <li><img src={phone_icon} alt="" />Phone: 123-456-7890</li> */}
             <li><img src={mail_icon} alt="" />Email: zarayaeducation@gmail.com </li>
         </ul>
       </div>
