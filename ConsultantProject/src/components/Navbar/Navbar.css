@@ -78,4 +78,7 @@ nav ul li {
     .hide-mobile-menu {
         right: -200px;
     }
+    .logo {
+        margin-left: -20px;
+    }
 }

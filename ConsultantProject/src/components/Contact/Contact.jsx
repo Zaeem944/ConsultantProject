@@ -39,7 +39,7 @@ const Contact = () => {
       <div className="contact-col">
         <h3>Send us a message <img src={msg_icon} alt="" /></h3>
         <ul>
-            <li><img src={phone_icon} alt="" />Phone: +92 3094454678</li>
+            <li><img src={phone_icon} alt="" />Phone: 0329 1599796</li>
             <li><img src={mail_icon} alt="" />Email: zarayaeducation@gmail.com </li>
         </ul>
       </div>
